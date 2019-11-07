@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    
+        <form>
+            <p>Subscribe to our email list:</p> 
+            <input type="email" name="email" />
+             <input type="submit" name="subscribe"  value="Subscribe" />
+        </form>
+        <hr/>
+    <form method="GET" action="https://www.google.com/">
+        <p>Upload your song in MP3 format:</p>
+        <input type="file" name="user-song" multiple /><br />
+        <hr />
+        <p>Do you play any of the following instruments? (You can select more than one option by holding down control on
+            a PC or command key on a Mac while selecting different options.)</p>
+        <select name="instruments" size="4" multiple="multiple">
+            <option value="guitar" selected="selected"> Guitar</option>
+            <option value="drums">Drums</option>
+            <option value="keyboard" selected="selected">Keyboard</option>
+            <option value="bass">Bass</option>
+        </select>
+        <hr />
+        <label>username </label>
+        <input type="text" name="username" size="25" maxlength="30" placeholder="Enter your username" />
+        <br />
+        <hr />
+
+        <label>Password</label>
+        <input type="password" name="password" size="25" minlength="5" maxlength="20"
+            placeholder="Enter your password" />
+        <br />
+        <hr />
+        <label>What did you think of this gig?</label>
+        <textarea placeholder="hello world" name="comments" cols="20" rows="5"></textarea>
+        <hr />
+        <p>Please select your favorite genre: <br />
+            <input type="radio" name="genre" value="rock" />
+            Rock <input type="radio" name="genre" value="pop" />
+            Pop
+            <input type="radio" name="genre" value="jazz" />
+            Jazz
+
+            <input type="radio" name="genre" value="popup" />
+            Popup
+        </p>
+        <br />
+        <hr />
+        <p>Please select your favorite music service(s): <br />
+            <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+            <input type="checkbox" name="service" value="lastfm" /> Last.fm
+            <input type="checkbox" name="service" value="spotify" /> Spotify
+            <input type="checkbox" name="service" value="react" /> react
+        </p>
+        <hr />
+        <p>what is your favorite fruit?</p>
+        <select name="fruits">
+            <option value="mango">mango</option>
+            <option value="orange">orange</option>
+            <option value="apple">apple</option>
+        </select>
+        <hr />
+    </form>
+
+
+
+</body>
+
+</html>
